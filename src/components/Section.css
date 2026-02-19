@@ -1,0 +1,26 @@
+section {
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.glass-section {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  margin: 80px auto;
+  max-width: 900px;
+  padding: 60px 40px;
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.2);
+}
+
+.glass-section h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #38bdf8;
+  text-shadow: 0 0 15px #38bdf8;
+}
+
+.glass-section p {
+  line-height: 1.8;
+  opacity: 0.9;
+}
