@@ -41,3 +41,15 @@
   color: #38bdf8;
   text-shadow: 0 0 10px #38bdf8;
 }
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+}

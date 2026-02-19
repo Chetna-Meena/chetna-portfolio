@@ -51,3 +51,22 @@
 .hero-image img:hover {
   transform: scale(1.05);
 }
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+  }
+}

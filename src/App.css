@@ -12,3 +12,6 @@ h1 {
   color: #38bdf8;
   text-shadow: 0 0 20px #38bdf8;
 }
+html {
+  scroll-behavior: smooth;
+}
